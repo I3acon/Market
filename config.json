@@ -1,7 +1,7 @@
 {
   "contracts": {
-    "bank": {
-      "address": "0xD3e06A74Fc1c9dcA4c8CDbE09ae10b97DA96515c"
+    "market": {
+      "address": "0xe7f1725E7734CE288F8367e1Bb143E90bb3F0512"
     },
     "jusd": {
       "address": "0xC37a3E8C633EDD57D7Ec914005a3044cAC1e5C4e"
