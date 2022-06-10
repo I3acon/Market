@@ -19,7 +19,7 @@ contract Market {
     Erc20 public jusd;
     uint256 public tvd;
     mapping(address => uint256) public balance;
-    event Buy(address indexed user, uint256 _id, uint256 _amount);
+    event Buy(string name, uint256 _id, uint256 _amount);
     uint256[] public ids;
 
     constructor(address _jusd) {
@@ -43,10 +43,14 @@ contract Market {
         return false;
     }
 
-    function buy(uint256 _id, uint256 _amount) public {
+    function buy(
+        string memory name,
+        uint256 _id,
+        uint256 _amount
+    ) public {
         require(_amount > 0);
         require(checkitemid(_id));
         jusd.transferFrom(msg.sender, address(this), _amount);
-        emit Buy(msg.sender, _id, _amount);
+        emit Buy(name, _id, _amount);
     }
 }

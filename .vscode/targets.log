@@ -8,7 +8,7 @@ make: *** No rule to make target 'all'.  Stop.
 # This is free software: you are free to change and redistribute it.
 # There is NO WARRANTY, to the extent permitted by law.
 
-# Make data base, printed on Fri Jun 10 17:14:34 2022
+# Make data base, printed on Fri Jun 10 19:09:37 2022
 
 # Variables
 
@@ -25,7 +25,7 @@ CUDA_CACHE_MAXSIZE = 268435456
 # environment
 LOCALAPPDATA = C:\Users\PUNNAWICHSILPKITCHAR\AppData\Local
 # environment
-VSCODE_IPC_HOOK_EXTHOST = \\.\pipe\vscode-ipc-7e24179c-7c1c-452b-825f-1917b6019a7a-sock
+VSCODE_IPC_HOOK_EXTHOST = \\.\pipe\vscode-ipc-4b736feb-66af-4f60-9147-694a4f22a0c9-sock
 # environment
 WSLENV = WT_SESSION::WT_PROFILE_ID
 # environment
@@ -47,7 +47,7 @@ GPU_FORCE_64BIT_PTR = 0
 # automatic
 @D = $(patsubst %/,%,$(patsubst %\,%,$(dir $@)))
 # environment
-CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_2644_PCJTECHABNOFAWAV
+CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_4772_SWXUTGSAYFZYUIMV
 # environment
 FPS_BROWSER_USER_PROFILE_STRING = Default
 # environment
@@ -109,7 +109,7 @@ MAKEFILE_LIST := Makefile
 # environment
 VSCODE_VERBOSE_LOGGING = true
 # environment
-VSCODE_PID = 2644
+VSCODE_PID = 4772
 # automatic
 ?D = $(patsubst %/,%,$(patsubst %\,%,$(dir $?)))
 # environment
@@ -173,7 +173,7 @@ CHOCOLATEYLASTPATHUPDATE = 132920265525648563
 # environment
 VRAY5_FOR_3DSMAX2022_MAIN = C:\ProgramData\Autodesk\ApplicationPlugins\VRay3dsMax2022/bin
 # environment
-WT_SESSION = fa338ad2-799a-4822-a12a-9a33a7923e60
+WT_SESSION = 2b51cf16-7d00-480e-8ec6-0290048c54b4
 # environment
 LOGONSERVER = \\POON-PC
 # environment
@@ -261,9 +261,9 @@ PROCESSOR_IDENTIFIER = AMD64 Family 25 Model 33 Stepping 0, AuthenticAMD
 
 # Directories
 
-# . (key c:/Users/PUNNAWICHSILPKITCHAR/Desktop/mc/Simple-Bank-smartcontract, mtime 1654856058): 25 files, no impossibilities.
+# . (key c:/Users/PUNNAWICHSILPKITCHAR/Desktop/mc/Simple-Bank-smartcontract, mtime 1654861927): 29 files, no impossibilities.
 
-# 25 files, no impossibilities in 1 directories.
+# 29 files, no impossibilities in 1 directories.
 
 # Implicit Rules
 
@@ -272,8 +272,7 @@ PROCESSOR_IDENTIFIER = AMD64 Family 25 Model 33 Stepping 0, AuthenticAMD
 # Files
 
 deploy:
-#  Implicit rule search has not been done. 
-
+#  Implicit rule search has not been done.
 #  Modification time never checked.
 #  File has not been updated.
 #  recipe to execute (from 'Makefile', line 14):
@@ -290,7 +289,8 @@ chain:
 #  Implicit rule search has not been done.
 #  Modification time never checked.
 #  File has not been updated.
-#  recipe to execute (from 'Makefile', line 11):
+#  recipe to execute (from 'Makefile 
+', line 11):
 	npx hardhat node
 
 # Not a target:
@@ -335,12 +335,12 @@ ltest:
 
 # No general ('VPATH' variable) search path.
 
-# strcache buffers: 1 (0) / strings = 33 / storage = 328 B / avg = 9 B
-# current buf: size = 8174 B / used = 328 B / count = 33 / avg = 9 B
+# strcache buffers: 1 (0) / strings = 37 / storage = 367 B / avg = 9 B
+# current buf: size = 8174 B / used = 367 B / count = 37 / avg = 9 B
 
-# strcache performance: lookups = 42 / hit rate = 21%
+# strcache performance: lookups = 46 / hit rate = 19%
 # hash-table stats:
-# Load=33/8192=0%, Rehash=0, Collisions=0/42=0%
-# Finished Make data base on Fri Jun 10 17:14:34 2022
+# Load=37/8192=0%, Rehash=0, Collisions=0/46=0%
+# Finished Make data base on Fri Jun 10 19:09:37 2022
 
  
