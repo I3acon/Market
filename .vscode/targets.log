@@ -8,7 +8,7 @@ make: *** No rule to make target 'all'.  Stop.
 # This is free software: you are free to change and redistribute it.
 # There is NO WARRANTY, to the extent permitted by law.
 
-# Make data base, printed on Fri Jun 10 20:18:41 2022
+# Make data base, printed on Fri Jun 10 21:22:35 2022
 
 # Variables
 
@@ -25,7 +25,7 @@ CUDA_CACHE_MAXSIZE = 268435456
 # environment
 LOCALAPPDATA = C:\Users\PUNNAWICHSILPKITCHAR\AppData\Local
 # environment
-VSCODE_IPC_HOOK_EXTHOST = \\.\pipe\vscode-ipc-237361d7-28b7-4a9a-9e7a-d1bae5d74a6c-sock
+VSCODE_IPC_HOOK_EXTHOST = \\.\pipe\vscode-ipc-4c7cab37-4783-4cf5-9699-ea349e165ffe-sock
 # environment
 WSLENV = WT_SESSION::WT_PROFILE_ID
 # environment
@@ -47,7 +47,7 @@ GPU_FORCE_64BIT_PTR = 0
 # automatic
 @D = $(patsubst %/,%,$(patsubst %\,%,$(dir $@)))
 # environment
-CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_24328_FWQLQDYHEGBDINZE
+CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_28052_VUMERRTJSPBVZNVJ
 # environment
 FPS_BROWSER_USER_PROFILE_STRING = Default
 # environment
@@ -109,7 +109,7 @@ MAKEFILE_LIST := Makefile
 # environment
 VSCODE_VERBOSE_LOGGING = true
 # environment
-VSCODE_PID = 24328
+VSCODE_PID = 28052
 # automatic
 ?D = $(patsubst %/,%,$(patsubst %\,%,$(dir $?)))
 # environment
@@ -334,13 +334,12 @@ ltest:
 
 # No general ('VPATH' variable) search path.
 
-# strcache buffers:  
-1 (0) / strings = 37 / storage = 367 B / avg = 9 B
+# strcache buffers: 1 (0) / strings = 37 / storage = 367 B / avg = 9 B
 # current buf: size = 8174 B / used = 367 B / count = 37 / avg = 9 B
 
 # strcache performance: lookups = 46 / hit rate = 19%
 # hash-table stats:
 # Load=37/8192=0%, Rehash=0, Collisions=0/46=0%
-# Finished Make data base on Fri Jun 10 20:18:41 2022
+# Finished Make data base on Fri Jun 10 21:22:35 2022
 
  

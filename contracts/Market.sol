@@ -2,6 +2,7 @@
 pragma solidity ^0.8.13;
 
 import "hardhat/console.sol";
+import "@openzeppelin/contracts/access/Ownable.sol";
 
 interface Erc20 {
     function approve(address, uint256) external returns (bool);
@@ -15,7 +16,7 @@ interface Erc20 {
     ) external returns (bool);
 }
 
-contract Market {
+contract Market is Ownable {
     struct Item {
         uint256 id;
         string itemname;
@@ -30,7 +31,7 @@ contract Market {
         jusd = Erc20(_jusd);
     }
 
-    function addItem(string memory _name, uint256 _price) public {
+    function addItem(string memory _name, uint256 _price) public onlyOwner {
         Item memory newItem;
         newItem.itemname = _name;
         newItem.price = _price;
@@ -41,7 +42,7 @@ contract Market {
         uint256 _id,
         string memory _name,
         uint256 _price
-    ) public {
+    ) public onlyOwner {
         items[_id].itemname = _name;
         items[_id].price = _price;
     }
@@ -58,7 +59,7 @@ contract Market {
         return 0;
     }
 
-    function deleteItem(uint256 _id) public {
+    function deleteItem(uint256 _id) public onlyOwner {
         delete items[_id];
     }
 
@@ -70,5 +71,18 @@ contract Market {
         uint256 price = items[_id].price * _quantity;
         jusd.transferFrom(msg.sender, address(this), price);
         emit Buy(recipients, items[_id].itemname, _quantity);
+    }
+
+    function purchase(
+        string memory recipients,
+        string memory name,
+        uint256 _quantity
+    ) public {
+        uint256 id = findItem(name);
+        if (id < 0 || id >= items.length - 1) {
+            console.log("Item not found");
+            revert();
+        }
+        buyItem(recipients, id, _quantity);
     }
 }

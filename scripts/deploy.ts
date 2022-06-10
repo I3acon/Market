@@ -11,18 +11,24 @@ async function main() {
 
   await market.deployed();
 
-  console.log("Market Contract deployed to:", market.address);
-
   //  await hre.network.provider.request({
   //   method: "hardhat_impersonateAccount",
   //   params: [config.rich.address],
   // });
   // const signer = await ethers.getSigner(config.rich.address);
-  // const daiContract = new ethers.Contract(config.contracts.dai.address, ERC20_ABI, signer);
+  // const jusdContract = new ethers.Contract(config.contracts.jusd.address, ERC20_ABI, signer);
 
-  // await daiContract.connect(signer).transfer(config.account0.address, ethers.utils.parseEther("1000"));
-  // const accountBalance = await daiContract.balanceOf(config.account0.address);
+  // await jusdContract.connect(signer).transfer(config.account0.address, ethers.utils.parseEther("10000"));
+  // const accountBalance = await jusdContract.balanceOf(config.account0.address);
 
+  console.log("Market Contract deployed to:", market.address);
+
+  //   await hre.run("laika-sync", {
+  //   contract: "Market",
+  //   address: market.address,
+  // })
+
+   
 }
 
 main().catch((error) => {

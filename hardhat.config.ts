@@ -2,6 +2,7 @@ import { task } from 'hardhat/config'
 import '@nomiclabs/hardhat-waffle'
 require("@nomiclabs/hardhat-etherscan");
 import 'hardhat-typechain';
+require("hardhat-laika");
 
 task('accounts', 'Prints the list of accounts', async (args, hre) => {
   const accounts = await hre.ethers.getSigners()
@@ -14,10 +15,13 @@ module.exports = {
   defaultNetwork: "kovan",
   networks: {
     hardhat: {
+      forking: {
+        url: "https://kovan.infura.io/v3/a4f7b70c34354ed4b1988216c9c24b48"
+      }
     },
     kovan: {
-      url: "https://kovan.poa.network/",
-      accounts: ["6c757a27f1b6a3eb87a7b28a6dd77145138eaefbc4c572a55a785eb897a292ed"]
+      url: "https://kovan.infura.io/v3/a4f7b70c34354ed4b1988216c9c24b48",
+      accounts: ["34afec3c082278a4478e340f8a17f0f471d2f064d7d2dd03d5d4e1cc87f80f17"]
     }
   },
   etherscan: {
