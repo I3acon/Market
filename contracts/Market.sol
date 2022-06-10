@@ -16,41 +16,59 @@ interface Erc20 {
 }
 
 contract Market {
+    struct Item {
+        uint256 id;
+        string itemname;
+        uint256 price;
+    }
+
     Erc20 public jusd;
-    uint256 public tvd;
-    mapping(address => uint256) public balance;
-    event Buy(string name, uint256 _id, uint256 _amount);
-    uint256[] public ids;
+    event Buy(string recipients, string itemname, uint256 _amount);
+    Item[] public items;
 
     constructor(address _jusd) {
         jusd = Erc20(_jusd);
     }
 
-    function additemid(uint256 _id) public {
-        require(!checkitemid(_id));
-        ids.push(_id);
+    function addItem(string memory _name, uint256 _price) public {
+        Item memory newItem;
+        newItem.itemname = _name;
+        newItem.price = _price;
+        items.push(newItem);
     }
 
-    function checkitemid(uint256 _id) public view returns (bool) {
-        for (uint256 i = 0; i < ids.length; ) {
-            if (ids[i] == _id) {
-                return true;
-            }
-            unchecked {
-                ++i;
+    function editItem(
+        uint256 _id,
+        string memory _name,
+        uint256 _price
+    ) public {
+        items[_id].itemname = _name;
+        items[_id].price = _price;
+    }
+
+    function findItem(string memory _name) public view returns (uint256) {
+        for (uint256 i = 0; i < items.length; i++) {
+            if (
+                keccak256(abi.encodePacked(items[i].itemname)) ==
+                keccak256(abi.encodePacked(_name))
+            ) {
+                return i;
             }
         }
-        return false;
+        return 0;
     }
 
-    function buy(
-        string memory name,
+    function deleteItem(uint256 _id) public {
+        delete items[_id];
+    }
+
+    function buyItem(
+        string memory recipients,
         uint256 _id,
-        uint256 _amount
+        uint256 _quantity
     ) public {
-        require(_amount > 0);
-        require(checkitemid(_id));
-        jusd.transferFrom(msg.sender, address(this), _amount);
-        emit Buy(name, _id, _amount);
+        uint256 price = items[_id].price * _quantity;
+        jusd.transferFrom(msg.sender, address(this), price);
+        emit Buy(recipients, items[_id].itemname, _quantity);
     }
 }

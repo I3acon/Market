@@ -8,7 +8,7 @@ make: *** No rule to make target 'all'.  Stop.
 # This is free software: you are free to change and redistribute it.
 # There is NO WARRANTY, to the extent permitted by law.
 
-# Make data base, printed on Fri Jun 10 19:09:37 2022
+# Make data base, printed on Fri Jun 10 20:18:41 2022
 
 # Variables
 
@@ -25,7 +25,7 @@ CUDA_CACHE_MAXSIZE = 268435456
 # environment
 LOCALAPPDATA = C:\Users\PUNNAWICHSILPKITCHAR\AppData\Local
 # environment
-VSCODE_IPC_HOOK_EXTHOST = \\.\pipe\vscode-ipc-4b736feb-66af-4f60-9147-694a4f22a0c9-sock
+VSCODE_IPC_HOOK_EXTHOST = \\.\pipe\vscode-ipc-237361d7-28b7-4a9a-9e7a-d1bae5d74a6c-sock
 # environment
 WSLENV = WT_SESSION::WT_PROFILE_ID
 # environment
@@ -47,7 +47,7 @@ GPU_FORCE_64BIT_PTR = 0
 # automatic
 @D = $(patsubst %/,%,$(patsubst %\,%,$(dir $@)))
 # environment
-CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_4772_SWXUTGSAYFZYUIMV
+CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_24328_FWQLQDYHEGBDINZE
 # environment
 FPS_BROWSER_USER_PROFILE_STRING = Default
 # environment
@@ -109,7 +109,7 @@ MAKEFILE_LIST := Makefile
 # environment
 VSCODE_VERBOSE_LOGGING = true
 # environment
-VSCODE_PID = 4772
+VSCODE_PID = 24328
 # automatic
 ?D = $(patsubst %/,%,$(patsubst %\,%,$(dir $?)))
 # environment
@@ -173,7 +173,7 @@ CHOCOLATEYLASTPATHUPDATE = 132920265525648563
 # environment
 VRAY5_FOR_3DSMAX2022_MAIN = C:\ProgramData\Autodesk\ApplicationPlugins\VRay3dsMax2022/bin
 # environment
-WT_SESSION = 2b51cf16-7d00-480e-8ec6-0290048c54b4
+WT_SESSION = 051c978d-4d31-457b-8e53-06d374f3fbd3
 # environment
 LOGONSERVER = \\POON-PC
 # environment
@@ -289,8 +289,7 @@ chain:
 #  Implicit rule search has not been done.
 #  Modification time never checked.
 #  File has not been updated.
-#  recipe to execute (from 'Makefile 
-', line 11):
+#  recipe to execute (from 'Makefile', line 11):
 	npx hardhat node
 
 # Not a target:
@@ -335,12 +334,13 @@ ltest:
 
 # No general ('VPATH' variable) search path.
 
-# strcache buffers: 1 (0) / strings = 37 / storage = 367 B / avg = 9 B
+# strcache buffers:  
+1 (0) / strings = 37 / storage = 367 B / avg = 9 B
 # current buf: size = 8174 B / used = 367 B / count = 37 / avg = 9 B
 
 # strcache performance: lookups = 46 / hit rate = 19%
 # hash-table stats:
 # Load=37/8192=0%, Rehash=0, Collisions=0/46=0%
-# Finished Make data base on Fri Jun 10 19:09:37 2022
+# Finished Make data base on Fri Jun 10 20:18:41 2022
 
  
