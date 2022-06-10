@@ -1,0 +1,5 @@
+make.exe --dry-run --always-make --keep-going --print-directory
+make: Entering directory 'c:/Users/PUNNAWICHSILPKITCHAR/Desktop/mc/Simple-Bank-smartcontract'
+npx hardhat compile
+make: Leaving directory 'c:/Users/PUNNAWICHSILPKITCHAR/Desktop/mc/Simple-Bank-smartcontract'
+ 

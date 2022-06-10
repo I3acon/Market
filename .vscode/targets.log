@@ -1,0 +1,346 @@
+make.exe all --print-data-base --no-builtin-variables --no-builtin-rules --question
+make: *** No rule to make target 'all'.  Stop.
+
+# GNU Make 4.3
+# Built for Windows32
+# Copyright (C) 1988-2020 Free Software Foundation, Inc.
+# License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+# This is free software: you are free to change and redistribute it.
+# There is NO WARRANTY, to the extent permitted by law.
+
+# Make data base, printed on Fri Jun 10 17:14:34 2022
+
+# Variables
+
+# environment
+FPS_BROWSER_APP_PROFILE_STRING = Internet Explorer
+# environment
+SYSTEMDRIVE = C:
+# environment
+LC_ALL = C
+# environment
+USERPROFILE = C:\Users\PUNNAWICHSILPKITCHAR
+# environment
+CUDA_CACHE_MAXSIZE = 268435456
+# environment
+LOCALAPPDATA = C:\Users\PUNNAWICHSILPKITCHAR\AppData\Local
+# environment
+VSCODE_IPC_HOOK_EXTHOST = \\.\pipe\vscode-ipc-7e24179c-7c1c-452b-825f-1917b6019a7a-sock
+# environment
+WSLENV = WT_SESSION::WT_PROFILE_ID
+# environment
+VSCODE_CWD = C:\Users\PUNNAWICHSILPKITCHAR\Desktop\mc\Simple-Bank-smartcontract
+# environment
+CHOCOLATEYINSTALL = C:\ProgramData\chocolatey
+# environment
+SYSTEMROOT = C:\WINDOWS
+# environment
+PROCESSOR_LEVEL = 25
+# environment
+PSMODULEPATH = C:\Users\PUNNAWICHSILPKITCHAR\Documents\WindowsPowerShell\Modules;C:\Program Files\WindowsPowerShell\Modules;C:\WINDOWS\system32\WindowsPowerShell\v1.0\Modules
+# environment
+GOOGLE_API_KEY = no
+# default
+MAKE_COMMAND := C:/ProgramData/chocolatey/lib/make/tools/install/bin/make.exe
+# environment
+GPU_FORCE_64BIT_PTR = 0
+# automatic
+@D = $(patsubst %/,%,$(patsubst %\,%,$(dir $@)))
+# environment
+CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_2644_PCJTECHABNOFAWAV
+# environment
+FPS_BROWSER_USER_PROFILE_STRING = Default
+# environment
+VSCODE_HANDLES_UNCAUGHT_ERRORS = true
+# default
+.VARIABLES := 
+# automatic
+%D = $(patsubst %/,%,$(patsubst %\,%,$(dir $%)))
+# environment
+GPU_MAX_HEAP_SIZE = 100
+# automatic
+^D = $(patsubst %/,%,$(patsubst %\,%,$(dir $^)))
+# environment
+VSCODE_LOG_STACK = false
+# automatic
+%F = $(notdir $%)
+# environment
+VSCODE_CODE_CACHE_PATH = C:\Users\PUNNAWICHSILPKITCHAR\AppData\Roaming\Code\CachedData\4af164ea3a06f701fe3e89a2bcbb421d2026b68f
+# environment
+LANG = C
+# default
+.LOADED := 
+# environment
+TMP = C:\Users\PUNNAW~1\AppData\Local\Temp
+# default
+.INCLUDE_DIRS = .
+# environment
+PROCESSOR_ARCHITEW6432 = AMD64
+# makefile
+MAKEFLAGS = pqrR
+# environment
+INTEL_DEV_REDIST = C:\Program Files (x86)\Common Files\Intel\Shared Libraries\
+# environment
+ONEDRIVE = C:\Users\PUNNAWICHSILPKITCHAR\OneDrive
+# environment
+INTELLIJ IDEA COMMUNITY EDITION = C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2018.3.5\bin;
+# makefile
+CURDIR := c:/Users/PUNNAWICHSILPKITCHAR/Desktop/mc/Simple-Bank-smartcontract
+# environment
+VSCODE_PIPE_LOGGING = true
+# environment
+APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = 1
+# automatic
+*D = $(patsubst %/,%,$(patsubst %\,%,$(dir $*)))
+# environment
+PROGRAMFILES = C:\Program Files (x86)
+# environment
+MFLAGS = -pqrR
+# default
+.SHELLFLAGS := -c
+# environment
+COMMONPROGRAMW6432 = C:\Program Files\Common Files
+# automatic
++D = $(patsubst %/,%,$(patsubst %\,%,$(dir $+)))
+# makefile (from 'Makefile', line 1)
+MAKEFILE_LIST := Makefile
+# automatic
+@F = $(notdir $@)
+# environment
+VSCODE_VERBOSE_LOGGING = true
+# environment
+VSCODE_PID = 2644
+# automatic
+?D = $(patsubst %/,%,$(patsubst %\,%,$(dir $?)))
+# environment
+GOOGLE_DEFAULT_CLIENT_ID = no
+# environment
+WT_PROFILE_ID = {61c54bbd-c2c6-5271-96e7-009a87ff44bf}
+# automatic
+*F = $(notdir $*)
+# environment
+GPU_SINGLE_ALLOC_PERCENT = 100
+# automatic
+<D = $(patsubst %/,%,$(patsubst %\,%,$(dir $<)))
+# environment
+VRAY_OSL_PATH_3DSMAX2022 = C:\ProgramData\Autodesk\ApplicationPlugins\VRay3dsMax2022\opensl
+# environment
+VSCODE_NLS_CONFIG = {"locale":"en-us","availableLanguages":{},"_languagePackSupport":true}
+# environment
+AMDRMPATH = C:\Program Files\AMD\RyzenMaster\
+# default
+MAKE_HOST := Windows32
+# environment
+GPU_USE_SYNC_OBJECTS = 1
+# environment
+PROGRAMDATA = C:\ProgramData
+# default
+SHELL := sh.exe
+# environment
+HOMEPATH = \Users\PUNNAWICHSILPKITCHAR
+# default
+MAKECMDGOALS := all
+# environment
+VRAY5_FOR_3DSMAX2022_PLUGINS = C:\ProgramData\Autodesk\ApplicationPlugins\VRay3dsMax2022/bin/plugins
+# environment
+DRIVERDATA = C:\Windows\System32\Drivers\DriverData
+# environment
+COMSPEC = C:\WINDOWS\system32\cmd.exe
+# environment
+WINDIR = C:\WINDOWS
+# environment
+GPU_MAX_ALLOC_PERCENT = 100
+# environment
+MAKELEVEL := 0
+# default
+MAKE = $(MAKE_COMMAND)
+# environment
+PATH = C:\Python310\Scripts\;C:\Python310\;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Intel\Shared Libraries\redist\intel64_win\compiler;C:\oraclexe\app\oracle\product\11.2.0\server\bin;"C:\Program Files (x86)\CodeBlocks\MinGW\bin;";C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\QuickTime\QTSystem\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files (x86)\CodeBlocks\MinGW;C:\TDM-GCC-32\bin;C:\Program Files\Java\jdk-11.0.2\bin;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files (x86)\Wolfram Research\WolframScript\;C:\Program Files\PuTTY\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Common Files\Autodesk Shared\;C:\Program Files\Microsoft SQL Server\120\Tools\Binn\;C:\ProgramData\chocolatey\bin;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\nodejs\;C:\Program Files\Git\cmd;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;C:\Users\PUNNAWICHSILPKITCHAR\.local\share\solana\install\active_release\bin;C:\Users\PUNNAWICHSILPKITCHAR\AppData\Local\Programs\Python\Python39\Scripts\;C:\Users\PUNNAWICHSILPKITCHAR\AppData\Local\Programs\Python\Python39\;C:\Users\PUNNAWICHSILPKITCHAR\AppData\Local\atom\bin;C:\Users\PUNNAWICHSILPKITCHAR\AppData\Local\Microsoft\WindowsApps;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2018.3.5\bin;C:\Users\PUNNAWICHSILPKITCHAR\.dotnet\tools;C:\Users\PUNNAWICHSILPKITCHAR\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\PUNNAWICHSILPKITCHAR\AppData\Local\Programs\MiKTeX\miktex\bin\x64\;C:\Users\PUNNAWICHSILPKITCHAR\AppData\Local\GitHubDesktop\bin;C:\Users\PUNNAWICHSILPKITCHAR\AppData\Roaming\npm
+# environment
+COMPUTERNAME = POON-PC
+# environment
+VRAY_SEND_FEEDBACK = 1
+# default
+MAKEFILES := 
+# automatic
+^F = $(notdir $^)
+# environment
+JAVA = C:\Program Files\Java
+# environment
+PROMPT = $P$G
+# environment
+CHOCOLATEYLASTPATHUPDATE = 132920265525648563
+# environment
+VRAY5_FOR_3DSMAX2022_MAIN = C:\ProgramData\Autodesk\ApplicationPlugins\VRay3dsMax2022/bin
+# environment
+WT_SESSION = fa338ad2-799a-4822-a12a-9a33a7923e60
+# environment
+LOGONSERVER = \\POON-PC
+# environment
+VSCODE_LOG_NATIVE = false
+# environment
+USERNAME = PUNNAWICHSILPKITCHAR
+# environment
+COMMONPROGRAMFILES = C:\Program Files (x86)\Common Files
+# automatic
+?F = $(notdir $?)
+# environment
+PROGRAMW6432 = C:\Program Files
+# environment
+PATHEXT = .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.PY;.PYW;.CPL
+# automatic
++F = $(notdir $+)
+# environment
+ORIGINAL_XDG_CURRENT_DESKTOP = undefined
+# environment
+USERDOMAIN = AzureAD
+# 'override' directive
+GNUMAKEFLAGS := 
+# environment
+OS = Windows_NT
+# makefile
+.DEFAULT_GOAL := compile
+# default
+MAKE_VERSION := 4.3
+# environment
+PROGRAMFILES(X86) = C:\Program Files (x86)
+# environment
+VRAY_MDL_PATH_3DSMAX2022 = C:\Program Files\Chaos Group\V-Ray\3ds Max 2022\mdl
+# environment
+USERDOMAIN_ROAMINGPROFILE = AzureAD
+# environment
+NUMBER_OF_PROCESSORS = 12
+# environment
+PUBLIC = C:\Users\Public
+# environment
+APPDATA = C:\Users\PUNNAWICHSILPKITCHAR\AppData\Roaming
+# environment
+HOMEDRIVE = C:
+# environment
+PROCESSOR_ARCHITECTURE = x86
+# environment
+VSCODE_AMD_ENTRYPOINT = vs/workbench/api/node/extensionHostProcess
+# environment
+COMMONPROGRAMFILES(X86) = C:\Program Files (x86)\Common Files
+# environment
+ELECTRON_RUN_AS_NODE = 1
+# environment
+TEMP = C:\Users\PUNNAW~1\AppData\Local\Temp
+# environment
+VSCODE_IPC_HOOK = \\.\pipe\7741c91fd588227fcacc25a586c34ed5-1.68.0-main-sock
+# environment
+GOOGLE_DEFAULT_CLIENT_SECRET = no
+# default
+.RECIPEPREFIX := 
+# automatic
+<F = $(notdir $<)
+# default
+SUFFIXES := 
+# environment
+ALLUSERSPROFILE = C:\ProgramData
+# environment
+VSCODE_CLI = 1
+# environment
+ELECTRON_NO_ATTACH_CONSOLE = 1
+# environment
+VRAY_GPU_PLATFORMS = c++/cpu;nvidia cuda nvidia geforce rtx 2060 gpu index0;
+# environment
+ADSK_3DSMAX_X64_2022 = C:\Program Files\Autodesk\3ds Max 2022\
+# default
+.FEATURES := target-specific order-only second-expansion else-if shortest-stem undefine oneshell nocomment grouped-target extra-prereqs archives jobserver output-sync load
+# environment
+PROCESSOR_REVISION = 2100
+# environment
+PROCESSOR_IDENTIFIER = AMD64 Family 25 Model 33 Stepping 0, AuthenticAMD
+# variable set hash-table stats:
+# Load=120/1024=12%, Rehash=0, Collisions=12/147=8%
+
+# Pattern-specific Variable Values
+
+# No pattern-specific variable values.
+
+# Directories
+
+# . (key c:/Users/PUNNAWICHSILPKITCHAR/Desktop/mc/Simple-Bank-smartcontract, mtime 1654856058): 25 files, no impossibilities.
+
+# 25 files, no impossibilities in 1 directories.
+
+# Implicit Rules
+
+# No implicit rules.
+
+# Files
+
+deploy:
+#  Implicit rule search has not been done. 
+
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 14):
+	npx hardhat run scripts/deploy.ts --network localhost
+
+compile:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 2):
+	npx hardhat compile
+
+chain:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 11):
+	npx hardhat node
+
+# Not a target:
+Makefile:
+#  Implicit rule search has been done.
+#  Last modified 2022-06-10 17:14:18
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+.DEFAULT:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+all:
+#  Command line target.
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has not been updated.
+
+account:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 5):
+	npx hardhat accounts
+
+ltest:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 8):
+	npx hardhat test
+
+# files hash-table stats:
+# Load=9/1024=1%, Rehash=0, Collisions=0/19=0%
+# VPATH Search Paths
+
+# No 'vpath' search paths.
+
+# No general ('VPATH' variable) search path.
+
+# strcache buffers: 1 (0) / strings = 33 / storage = 328 B / avg = 9 B
+# current buf: size = 8174 B / used = 328 B / count = 33 / avg = 9 B
+
+# strcache performance: lookups = 42 / hit rate = 21%
+# hash-table stats:
+# Load=33/8192=0%, Rehash=0, Collisions=0/42=0%
+# Finished Make data base on Fri Jun 10 17:14:34 2022
+
+ 

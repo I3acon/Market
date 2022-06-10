@@ -1,0 +1,25 @@
+{
+  "contracts": {
+    "bank": {
+      "address": "0xD3e06A74Fc1c9dcA4c8CDbE09ae10b97DA96515c"
+    },
+    "jusd": {
+      "address": "0xC37a3E8C633EDD57D7Ec914005a3044cAC1e5C4e"
+    }
+  },
+
+  "account0": {
+    "privatekey": "ac0974bec39a17e36ba4a6b4d238ff944bacb478cbed5efcae784d7bf4f2ff80",
+    "address": "0xf39Fd6e51aad88F6F4ce6aB8827279cffFb92266"
+  },
+  "account1": {
+    "privatekey": "59c6995e998f97a5a0044966f0945389dc9e86dae88c7a8412f4603b6b78690d",
+    "address": "0x70997970C51812dc3A010C7d01b50e0d17dc79C8"
+  },
+  "rpc": {
+    "url": "http://localhost:8545"
+  },
+  "rich": {
+    "address": "0x53829d517d8fa7d59d3d40e20251e519c079985f"
+  }
+}
