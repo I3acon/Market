@@ -8,7 +8,7 @@ make: *** No rule to make target 'all'.  Stop.
 # This is free software: you are free to change and redistribute it.
 # There is NO WARRANTY, to the extent permitted by law.
 
-# Make data base, printed on Fri Jun 10 21:59:21 2022
+# Make data base, printed on Sat Jun 11 02:18:06 2022
 
 # Variables
 
@@ -25,11 +25,11 @@ CUDA_CACHE_MAXSIZE = 268435456
 # environment
 LOCALAPPDATA = C:\Users\PUNNAWICHSILPKITCHAR\AppData\Local
 # environment
-VSCODE_IPC_HOOK_EXTHOST = \\.\pipe\vscode-ipc-57e9f4c0-5307-466f-8b31-9960e5fe485d-sock
+VSCODE_IPC_HOOK_EXTHOST = \\.\pipe\vscode-ipc-3b83154e-119c-475c-9be0-e7a0c2acd787-sock
 # environment
 WSLENV = WT_SESSION::WT_PROFILE_ID
 # environment
-VSCODE_CWD = C:\Users\PUNNAWICHSILPKITCHAR\Desktop\mc\Simple-Bank-smartcontract
+VSCODE_CWD = C:\Users\PUNNAWICHSILPKITCHAR\desktop\mc\Simple-Bank-smartcontract
 # environment
 CHOCOLATEYINSTALL = C:\ProgramData\chocolatey
 # environment
@@ -47,7 +47,7 @@ GPU_FORCE_64BIT_PTR = 0
 # automatic
 @D = $(patsubst %/,%,$(patsubst %\,%,$(dir $@)))
 # environment
-CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_29728_RUTAKANLVWYDJOXS
+CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_5612_FXOCJFSEJZCAQHXS
 # environment
 FPS_BROWSER_USER_PROFILE_STRING = Default
 # environment
@@ -85,7 +85,7 @@ ONEDRIVE = C:\Users\PUNNAWICHSILPKITCHAR\OneDrive
 # environment
 INTELLIJ IDEA COMMUNITY EDITION = C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2018.3.5\bin;
 # makefile
-CURDIR := c:/Users/PUNNAWICHSILPKITCHAR/Desktop/mc/Simple-Bank-smartcontract
+CURDIR := c:/Users/PUNNAWICHSILPKITCHAR/desktop/mc/Simple-Bank-smartcontract
 # environment
 VSCODE_PIPE_LOGGING = true
 # environment
@@ -109,7 +109,7 @@ MAKEFILE_LIST := Makefile
 # environment
 VSCODE_VERBOSE_LOGGING = true
 # environment
-VSCODE_PID = 29728
+VSCODE_PID = 5612
 # automatic
 ?D = $(patsubst %/,%,$(patsubst %\,%,$(dir $?)))
 # environment
@@ -173,8 +173,9 @@ CHOCOLATEYLASTPATHUPDATE = 132920265525648563
 # environment
 VRAY5_FOR_3DSMAX2022_MAIN = C:\ProgramData\Autodesk\ApplicationPlugins\VRay3dsMax2022/bin
 # environment
-WT_SESSION = 051c978d-4d31-457b-8e53-06d374f3fbd3
-# environment
+WT_SESSION = f96ff1c7-4a4e-4f25-aae3-512f56ad9b5e
+# env 
+ironment
 LOGONSERVER = \\POON-PC
 # environment
 VSCODE_LOG_NATIVE = false
@@ -261,7 +262,7 @@ PROCESSOR_IDENTIFIER = AMD64 Family 25 Model 33 Stepping 0, AuthenticAMD
 
 # Directories
 
-# . (key c:/Users/PUNNAWICHSILPKITCHAR/Desktop/mc/Simple-Bank-smartcontract, mtime 1654861927): 29 files, no impossibilities.
+# . (key c:/Users/PUNNAWICHSILPKITCHAR/desktop/mc/Simple-Bank-smartcontract, mtime 1654861927): 29 files, no impossibilities.
 
 # 29 files, no impossibilities in 1 directories.
 
@@ -340,6 +341,6 @@ ltest:
 # strcache performance: lookups = 46 / hit rate = 19%
 # hash-table stats:
 # Load=37/8192=0%, Rehash=0, Collisions=0/46=0%
-# Finished Make data base on Fri Jun 10 21:59:21 2022
+# Finished Make data base on Sat Jun 11 02:18:06 2022
 
  

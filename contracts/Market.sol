@@ -70,7 +70,7 @@ contract Market is Ownable {
         uint256 _quantity
     ) public {
         uint256 id = findItem(name);
-        if (id < 0 || id >= items.length - 1) {
+        if (id < 0 || id >= items.length) {
             console.log("Item not found");
             revert();
         }
@@ -89,5 +89,10 @@ contract Market is Ownable {
 
     function getItems() public view returns (Item[] memory) {
         return items;
+    }
+
+    function withdraw(uint256 _amount) public onlyOwner {
+        require(_amount > 0);
+        jusd.transfer(msg.sender, _amount);
     }
 }
