@@ -8,7 +8,7 @@ make: *** No rule to make target 'all'.  Stop.
 # This is free software: you are free to change and redistribute it.
 # There is NO WARRANTY, to the extent permitted by law.
 
-# Make data base, printed on Fri Jun 10 21:22:35 2022
+# Make data base, printed on Fri Jun 10 21:59:21 2022
 
 # Variables
 
@@ -25,7 +25,7 @@ CUDA_CACHE_MAXSIZE = 268435456
 # environment
 LOCALAPPDATA = C:\Users\PUNNAWICHSILPKITCHAR\AppData\Local
 # environment
-VSCODE_IPC_HOOK_EXTHOST = \\.\pipe\vscode-ipc-4c7cab37-4783-4cf5-9699-ea349e165ffe-sock
+VSCODE_IPC_HOOK_EXTHOST = \\.\pipe\vscode-ipc-57e9f4c0-5307-466f-8b31-9960e5fe485d-sock
 # environment
 WSLENV = WT_SESSION::WT_PROFILE_ID
 # environment
@@ -47,7 +47,7 @@ GPU_FORCE_64BIT_PTR = 0
 # automatic
 @D = $(patsubst %/,%,$(patsubst %\,%,$(dir $@)))
 # environment
-CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_28052_VUMERRTJSPBVZNVJ
+CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_29728_RUTAKANLVWYDJOXS
 # environment
 FPS_BROWSER_USER_PROFILE_STRING = Default
 # environment
@@ -109,7 +109,7 @@ MAKEFILE_LIST := Makefile
 # environment
 VSCODE_VERBOSE_LOGGING = true
 # environment
-VSCODE_PID = 28052
+VSCODE_PID = 29728
 # automatic
 ?D = $(patsubst %/,%,$(patsubst %\,%,$(dir $?)))
 # environment
@@ -295,7 +295,7 @@ chain:
 # Not a target:
 Makefile:
 #  Implicit rule search has been done.
-#  Last modified 2022-06-10 17:14:18
+#  Last modified 2022-06-10 21:28:02
 #  File has been updated.
 #  Successfully updated.
 
@@ -340,6 +340,6 @@ ltest:
 # strcache performance: lookups = 46 / hit rate = 19%
 # hash-table stats:
 # Load=37/8192=0%, Rehash=0, Collisions=0/46=0%
-# Finished Make data base on Fri Jun 10 21:22:35 2022
+# Finished Make data base on Fri Jun 10 21:59:21 2022
 
  

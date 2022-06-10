@@ -1,5 +1,6 @@
 //SPDX-License-Identifier: Unlicense
 pragma solidity ^0.8.13;
+pragma experimental ABIEncoderV2;
 
 import "hardhat/console.sol";
 import "@openzeppelin/contracts/access/Ownable.sol";
@@ -18,10 +19,10 @@ interface Erc20 {
 
 contract Market is Ownable {
     struct Item {
-        uint256 id;
         string itemname;
         uint256 price;
     }
+    mapping(uint256 => Item) public data;
 
     Erc20 public jusd;
     event Buy(string recipients, string itemname, uint256 _amount);
@@ -63,16 +64,6 @@ contract Market is Ownable {
         delete items[_id];
     }
 
-    function buyItem(
-        string memory recipients,
-        uint256 _id,
-        uint256 _quantity
-    ) public {
-        uint256 price = items[_id].price * _quantity;
-        jusd.transferFrom(msg.sender, address(this), price);
-        emit Buy(recipients, items[_id].itemname, _quantity);
-    }
-
     function purchase(
         string memory recipients,
         string memory name,
@@ -83,6 +74,20 @@ contract Market is Ownable {
             console.log("Item not found");
             revert();
         }
-        buyItem(recipients, id, _quantity);
+        uint256 price = items[id].price * _quantity;
+        jusd.transferFrom(msg.sender, address(this), price);
+        emit Buy(recipients, items[id].itemname, _quantity);
+    }
+
+    function getSingleItem(uint256 _id)
+        public
+        view
+        returns (string memory, uint256)
+    {
+        return (items[_id].itemname, items[_id].price);
+    }
+
+    function getItems() public view returns (Item[] memory) {
+        return items;
     }
 }
