@@ -48,13 +48,16 @@ contract Market is Ownable {
         items[_id].price = _price;
     }
 
-    function findItem(string memory _name) public view returns (uint256) {
-        for (uint256 i = 0; i < items.length; i++) {
+    function findItemIndex(string memory _name) public view returns (uint256) {
+        for (uint256 i = 0; i < items.length; ) {
             if (
                 keccak256(abi.encodePacked(items[i].itemname)) ==
                 keccak256(abi.encodePacked(_name))
             ) {
                 return i;
+            }
+            unchecked {
+                ++i;
             }
         }
         return 0;
@@ -67,16 +70,16 @@ contract Market is Ownable {
     function purchase(
         string memory recipients,
         string memory name,
-        uint256 _quantity
+        uint256 quantity
     ) public {
-        uint256 id = findItem(name);
+        uint256 id = findItemIndex(name);
         if (id < 0 || id >= items.length) {
             console.log("Item not found");
             revert();
         }
-        uint256 price = items[id].price * _quantity;
+        uint256 price = items[id].price * quantity;
         jusd.transferFrom(msg.sender, address(this), price);
-        emit Buy(recipients, items[id].itemname, _quantity);
+        emit Buy(recipients, items[id].itemname, quantity);
     }
 
     function getSingleItem(uint256 _id)

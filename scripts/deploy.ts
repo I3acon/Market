@@ -11,22 +11,22 @@ async function main() {
 
   await market.deployed();
 
-  //  await hre.network.provider.request({
-  //   method: "hardhat_impersonateAccount",
-  //   params: [config.rich.address],
-  // });
-  // const signer = await ethers.getSigner(config.rich.address);
-  // const jusdContract = new ethers.Contract(config.contracts.jusd.address, ERC20_ABI, signer);
+   await hre.network.provider.request({
+    method: "hardhat_impersonateAccount",
+    params: [config.rich.address],
+  });
+  const signer = await ethers.getSigner(config.rich.address);
+  const jusdContract = new ethers.Contract(config.contracts.jusd.address, ERC20_ABI, signer);
 
-  // await jusdContract.connect(signer).transfer(config.account0.address, ethers.utils.parseEther("10000"));
-  // const accountBalance = await jusdContract.balanceOf(config.account0.address);
+  await jusdContract.connect(signer).transfer(config.account0.address, ethers.utils.parseEther("10000"));
+  const accountBalance = await jusdContract.balanceOf(config.account0.address);
 
   console.log("Market Contract deployed to:", market.address);
 
-  //   await hre.run("laika-sync", {
-  //   contract: "Market",
-  //   address: market.address,
-  // })
+    await hre.run("laika-sync", {
+    contract: "Market",
+    address: market.address,
+  })
 
    
 }
